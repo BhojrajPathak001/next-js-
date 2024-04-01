@@ -1,11 +1,13 @@
+//@ mtlb root folder hota hai 
+
+import Header from "@/components/header";
 import Link from "next/link";
 
 export default function Home() {
   console.log("hello hello helo");
   return (
     <main>
-      <img src="/logo.png" alt="A server surrounded by magic sparkles." />
-      <h1>Welcome to this NextJS Course!</h1>
+      <Header />
       <p>🔥 Let&apos;s get started! 🔥</p>
       <Link href="/about">about</Link>
     </main>
